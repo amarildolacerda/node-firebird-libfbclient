@@ -31,9 +31,7 @@
 #ifndef JRD_PERF_H
 #define JRD_PERF_H
 
-#ifdef LINUX
-#include <libio.h>
-#endif
+#include <stdio.h>
 
 #ifdef HAVE_TIMES
 #include <sys/types.h>
@@ -116,7 +114,7 @@ typedef struct perf64
 #endif
 
 
-#include "../jrd/perf_proto.h"
+#include "../yvalve/perf_proto.h"
 
 #endif /* JRD_PERF_H */
 
